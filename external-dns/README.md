@@ -3,7 +3,9 @@
 ## Prerequisite
 
 Setting up the identity provider
-To create an identity provider you need 3 things: 
+
+To create an identity provider we need 3 things: 
+
 - a type of identity provider
 - an audience 
 - provider URL. 
