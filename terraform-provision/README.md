@@ -27,7 +27,7 @@
   - Terraform installation (https://www.terraform.io/downloads.html  - Based on client)
   
 
-## **Execution**
+## Execution
 
   - git clone https://github.com/akvault/deployment-k8s.git
 
@@ -38,5 +38,9 @@
   - terraform plan
 
   - terraform apply
+  
+## Configure kubectl
 
+  Now that you've provisioned your EKS cluster, you need to configure kubectl. Run the following command to retrieve the access credentials for   your cluster and automatically configure kubectl
 
+  * aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
