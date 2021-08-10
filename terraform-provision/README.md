@@ -14,29 +14,29 @@
 
 ## **prerequisite**
 
-  #AWS Account 
+  1. AWS Account 
   
-  #AWS CLI 
+  2. AWS CLI 
   
-  #kubectl 
+  3. kubectl 
   
-  #Service user with access key and secret key 
+  4. Service user with access key and secret key 
   
-  #IAM policy associated with service user
+  5. IAM policy associated with service user
   
-  #Terraform installation (https://www.terraform.io/downloads.html  - Based on client)
+  6. Terraform installation (https://www.terraform.io/downloads.html  - Based on client)
   
 
 ## **Execution**
 
-  #git clone https://github.com/akvault/deployment-k8s.git
+  - git clone https://github.com/akvault/deployment-k8s.git
 
-  #cd deployment-k8s/terraform-provision
+  - cd deployment-k8s/terraform-provision
 
-  #terraform init
+  - terraform init
 
-  #terraform plan
+  - terraform plan
 
-  #terraform apply
+  - terraform apply
 
 
