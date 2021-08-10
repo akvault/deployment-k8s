@@ -1,4 +1,4 @@
-# Deploy Application Load Balancer 
+# Deploy Load Balancer 
 
 https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html
 
