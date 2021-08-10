@@ -12,16 +12,19 @@
 
 **versions.tf** -> sets the Terraform version to at least 0.14. It also sets versions for the providers used in this context.
 
+**prerequisite**
+  
+
 **Execution**
 
-# git clone https://github.com/akvault/deployment-k8s.git
+  # git clone https://github.com/akvault/deployment-k8s.git
 
-# cd deployment-k8s/terraform-provision
+  # cd deployment-k8s/terraform-provision
 
-# terraform init
+  # terraform init
 
-# terraform plan
+  # terraform plan
 
-# terraform apply
+  # terraform apply
 
 
