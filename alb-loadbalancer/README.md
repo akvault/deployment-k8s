@@ -8,6 +8,18 @@ Note: Add Account ID before Execute below command.
 
 kubectl apply -f alb-loadbalancer/aws-load-balancer-controller-service-account.yaml
 
+OR 
+
+eksctl create iamserviceaccount \
+  --cluster=my_cluster \
+  --namespace=kube-system \
+  --name=aws-load-balancer-controller \
+  --attach-policy-arn=arn:aws:iam::111122223333:policy/AWSLoadBalancerControllerIAMPolicy \
+  --override-existing-serviceaccounts \
+  --approve      
+
+
+
 
 kubectl apply \
     --validate=false \
