@@ -1,4 +1,4 @@
-# Deploy Load Balancer 
+# Deploy Load Balancer on EKS
 
 https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html
 
