@@ -61,8 +61,12 @@ Provide - Audience (sts.amazonaws.com)
 
 
 
+  
+
 ## Installing the external DNS
 
+kubectl config set-context --current --namespace=kube-system
+  
 helm install <RELEASE_NAME> stable/external-dns \
 --set provider=aws \
 --set domainFilters[0]=<DOMAIN_FILTER>\
