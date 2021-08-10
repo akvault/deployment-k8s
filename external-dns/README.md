@@ -10,7 +10,7 @@ To create an identity provider you need 3 things:
 
 we will use OpenId Connect for the provider type and sts.amazonaws.com for the audience.
 
-### To get provider:- 
+##### To get provider:- 
 
 aws eks describe-cluster --name <CLUSTER_NAME> --query “cluster.identity.oidc.issuer” --output text
 
