@@ -43,4 +43,4 @@
 
   Now that you've provisioned your EKS cluster, you need to configure kubectl. Run the following command to retrieve the access credentials for   your cluster and automatically configure kubectl
 
-  * aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
+  aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
