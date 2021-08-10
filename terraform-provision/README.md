@@ -14,13 +14,13 @@
 
 ## **prerequisite**
 
-  ### AWS Account 
+  #AWS Account 
   
-  ### AWS CLI 
+  #AWS CLI 
   
-  ## #kubectl 
+  #kubectl 
   
-  ### Service user with access key and secret key 
+  #Service user with access key and secret key 
   
   #IAM policy associated with service user
   
