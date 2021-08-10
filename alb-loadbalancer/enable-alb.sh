@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-kubectl apply -f alb-loadbalancer/aws-load-balancer-controller-service-account.yaml
+kubectl apply -f aws-load-balancer-controller-service-account.yaml
 
 kubectl apply \
     --validate=false \
