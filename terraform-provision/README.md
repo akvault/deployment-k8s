@@ -12,7 +12,7 @@
 
 **versions.tf** -> sets the Terraform version to at least 0.14. It also sets versions for the providers used in this context.
 
-**prerequisite**
+# **prerequisite**
 
   #AWS Account 
   
@@ -27,7 +27,7 @@
   #Terraform installation (https://www.terraform.io/downloads.html  - Based on client)
   
 
-**Execution**
+# **Execution**
 
   #git clone https://github.com/akvault/deployment-k8s.git
 
