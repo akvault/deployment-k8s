@@ -14,17 +14,17 @@
 
 ## **prerequisite**
 
-  1. AWS Account 
+  - AWS Account 
   
-  2. AWS CLI 
+  - AWS CLI 
   
-  3. kubectl 
+  - Kubectl 
   
-  4. Service user with access key and secret key 
+  - Service user with access key and secret key 
   
-  5. IAM policy associated with service user
+  - IAM policy associated with service user
   
-  6. Terraform installation (https://www.terraform.io/downloads.html  - Based on client)
+  - Terraform installation (https://www.terraform.io/downloads.html  - Based on client)
   
 
 ## **Execution**
