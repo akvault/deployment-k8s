@@ -76,7 +76,7 @@ helm install <RELEASE_NAME> stable/external-dns \
 
 RELEASE_NAME - name of the helm release, can be anything you want (external-dns for example)
 
-DOMAIN_FILTER - name of your Route53 hosted zone if *.example.com would be example.com. You can find this information in the AWS console (Route53)
+DOMAIN_FILTER - name of your Route53 hosted zone if *.youlearn.link would be youlearn.link. 
 
 HOSTED_ZONE_ID - id of your hosted zone in AWS. You can find this information in the AWS console (Route53)
 
