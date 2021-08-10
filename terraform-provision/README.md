@@ -15,10 +15,15 @@
 **prerequisite**
 
   #AWS Account 
+  
   #AWS CLI 
+  
   #kubectl 
+  
   #Service user with access key and secret key 
+  
   #IAM policy associated with service user
+  
   #Terraform installation (https://www.terraform.io/downloads.html  - Based on client)
   
 
