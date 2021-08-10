@@ -12,7 +12,7 @@
 
 **versions.tf** -> sets the Terraform version to at least 0.14. It also sets versions for the providers used in this context.
 
-# **prerequisite**
+## **prerequisite**
 
   #AWS Account 
   
