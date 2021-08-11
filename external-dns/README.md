@@ -77,8 +77,8 @@ Provide - Audience (sts.amazonaws.com)
 --set txtOwnerId=<HOSTED_ZONE_ID> \
 --set interval=3m \
 --set rbac.create=true \
---set rbac.serviceAccountName=external-dns \
---set rbac.serviceAccountAnnotations.eks\.amazonaws\.com/role-arn=<ROLE_ARN>```
+--set rbac.serviceAccountName=external-dns \```
+```--set rbac.serviceAccountAnnotations.eks\.amazonaws\.com/role-arn=<ROLE_ARN>```
 
 RELEASE_NAME - name of the helm release, can be anything you want (external-dns for example)
 
