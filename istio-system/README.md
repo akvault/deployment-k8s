@@ -17,6 +17,7 @@
 
 ```kubectl -n istio-system get svc```
 
+```kubectl label namespace vote istio-injection=enabled --overwrite```
 
 # Install Grafana and Prometheus
 
@@ -27,5 +28,8 @@
 
 ### Install Grafana
 ```kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-${ISTIO_RELEASE}/samples/addons/grafana.yaml```
+
+
+# Install Jaeger and Kiali
 
 
