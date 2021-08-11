@@ -30,6 +30,9 @@
 ```kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-${ISTIO_RELEASE}/samples/addons/grafana.yaml```
 
 
-# Install Jaeger and Kiali
+# Kiali
 
+```kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-${ISTIO_RELEASE}/samples/addons/kiali.yaml```
+
+``` kubectl apply -f istio-system/istio-ingress.yaml
 
