@@ -51,9 +51,3 @@
   - kubectl apply -f metrics-server-0.3.6/deploy/1.8+/
   - kubectl get deployment metrics-server -n kube-system
 
-## Deploy Kubernetes Dashboard
-
-  - kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-beta8/aio/deploy/recommended.yaml
-  - kubectl proxy
-  
-
