@@ -18,4 +18,14 @@
 ```kubectl -n istio-system get svc```
 
 
+# Install Grafana and Prometheus
+
+```export ISTIO_RELEASE=$(echo $ISTIO_VERSION |cut -d. -f1,2)```
+
+### Install Prometheus
+```kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-${ISTIO_RELEASE}/samples/addons/prometheus.yaml```
+
+### Install Grafana
+```kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-${ISTIO_RELEASE}/samples/addons/grafana.yaml```
+
 
