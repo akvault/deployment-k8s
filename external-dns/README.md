@@ -14,7 +14,7 @@ we will use OpenId Connect for the provider type and sts.amazonaws.com for the a
 
 ##### To get provider:- 
 
-aws eks describe-cluster --name <CLUSTER_NAME> --query “cluster.identity.oidc.issuer” --output text
+```aws eks describe-cluster --name <CLUSTER_NAME> --query “cluster.identity.oidc.issuer” --output text```
 
 * The output should look something like this:
 
@@ -67,9 +67,9 @@ Provide - Audience (sts.amazonaws.com)
 
 ## Installing the external DNS
 
-kubectl config set-context --current --namespace=kube-system
+```kubectl config set-context --current --namespace=kube-system```
   
-helm install <RELEASE_NAME> stable/external-dns \
+```helm install <RELEASE_NAME> stable/external-dns \
 --set provider=aws \
 --set domainFilters[0]=<DOMAIN_FILTER>\
 --set policy=sync \
@@ -78,7 +78,7 @@ helm install <RELEASE_NAME> stable/external-dns \
 --set interval=3m \
 --set rbac.create=true \
 --set rbac.serviceAccountName=external-dns \
---set rbac.serviceAccountAnnotations.eks\.amazonaws\.com/role-arn=<ROLE_ARN>
+--set rbac.serviceAccountAnnotations.eks\.amazonaws\.com/role-arn=<ROLE_ARN>```
 
 RELEASE_NAME - name of the helm release, can be anything you want (external-dns for example)
 
