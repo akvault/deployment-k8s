@@ -69,7 +69,7 @@ Provide - Audience (sts.amazonaws.com)
 
 ```kubectl config set-context --current --namespace=kube-system```
   
-```helm install <RELEASE_NAME> stable/external-dns \
+   helm install <RELEASE_NAME> stable/external-dns \
    --set provider=aws \
    --set domainFilters[0]=<DOMAIN_FILTER> \
    --set policy=sync \
