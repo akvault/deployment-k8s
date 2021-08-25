@@ -6,7 +6,7 @@
 
 ```curl -L https://istio.io/downloadIstio | ISTIO_VERSION=${ISTIO_VERSION} sh -```
 
-```cd ${HOME}/environment/istio-${ISTIO_VERSION}```
+```cd istio-${ISTIO_VERSION}```
 
 ```sudo cp -v bin/istioctl /usr/local/bin/```
 
