@@ -4,8 +4,6 @@
 
 ```source ${HOME}/.bash_profile```
 
-```cd ~/environment```
-
 ```curl -L https://istio.io/downloadIstio | ISTIO_VERSION=${ISTIO_VERSION} sh -```
 
 ```cd ${HOME}/environment/istio-${ISTIO_VERSION}```
